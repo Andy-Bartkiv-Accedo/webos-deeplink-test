@@ -1,0 +1,10 @@
+{
+  "id": "tv.accedo.cbc.lg-deeplink-test",
+  "version": "1.0.0",
+  "vendor": "Accedo",
+  "type": "web",
+  "main": "index.html",
+  "title": "CBC LG deeplink test",
+  "icon": "icon.png",
+  "largeIcon": "largeIcon.png"
+}
