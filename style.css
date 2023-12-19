@@ -15,7 +15,6 @@ body {
   background-color: #191919;
   display: flex; flex-direction: column;
   justify-content: space-between;
-  padding: 0 1rem;
 }
 
 .cont-header {
