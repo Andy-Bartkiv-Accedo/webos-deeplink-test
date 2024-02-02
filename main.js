@@ -257,12 +257,10 @@ const testCasesGem = [
         id: 'gem-09',
         label: "Category",
         url: "cbctv://category/documentary"
-        // other test cases ???
     }, {
         id: 'gem-10',
         label: "Collection",
         url: "cbctv://collection/indigenous-stories"
-        // other test cases ??? 
     }, {
         notExposed: true,
         id: 'gem-11',
@@ -275,23 +273,31 @@ const testCasesGem = [
     }, {
         id: 'gem-13',
         label: 'Live Event',
-        url: 'cbctv://live-event/37707?autoplay=1'
+        url: 'cbctv://live-event/9460'
     }, {
         id: 'gem-14',
         label: "Show",
-        url: "cbctv://the-studio-k-show"
+        url: "cbctv://paw-patrol"
     }, {
         id: 'gem-15',
         label: "Show",
-        url: "cbctv://the-studio-k-show/s03"
+        url: "cbctv://paw-patrol/s03"
     }, {
         id: 'gem-16',
         label: "Show",
-        url: "cbctv://the-studio-k-show/s03e03"
+        url: "cbctv://paw-patrol/s03e03"
     }, {
         id: 'gem-17',
         label: "Show",
-        url: "cbctv://the-studio-k-show/s03e01?autoplay=1"
+        url: "cbctv://paw-patrol/s03e03?autoplay=1"
+    }, {
+        id: 'gem-18',
+        label: "Live Speciality",
+        url: "cbctv://live#cbc-comedy"
+    }, {
+        id: 'gem-19',
+        label: "Destination Hub",
+        url: "cbctv://experience"
     },
 ];
 
@@ -332,12 +338,10 @@ const testCasesTTV = [
         id: 'ttv-09',
         label: "Category",
         url: "toutv://categorie/documentaire"
-        // other test cases ???
     }, {
         id: 'ttv-10',
         label: "Collection",
         url: "toutv://collection/sous-le-sapin"
-        // other test cases ??? 
     }, {
         id: 'ttv-11',
         label: "Catchup",
@@ -347,10 +351,9 @@ const testCasesTTV = [
         label: "Live",
         url: "toutv://en-direct/9"
     }, {
-        notExposed: true,
         id: 'ttv-13',
         label: "Live Event",
-        url: "toutv://evenement-en-direct/37707?autoplay=1"
+        url: "toutv://evenement-en-direct/37707"
     }, {
         id: 'ttv-14',
         label: "Show",
@@ -367,5 +370,14 @@ const testCasesTTV = [
         id: 'ttv-17',
         label: "Show",
         url: "toutv://l-agent-jean/s04e03?autoplay=1"
+    }, {
+        notExposed: true,
+        id: 'ttv-18',
+        label: "Live Speciality",
+        url: "toutv://"
+    }, {
+        id: 'ttv-19',
+        label: "Destination Hub",
+        url: "toutv://section"
     },
 ];

@@ -103,6 +103,7 @@ body {
 .maker {
   display: flex;
   align-items: center;
+  min-height: 2em;
 }
 
 .custom-input {
